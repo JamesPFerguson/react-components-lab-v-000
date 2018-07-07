@@ -14,12 +14,12 @@ export class OlderCoaster extends React.Component {
     return (
       <div className="oldercoaster">
       <p>Two grannies having the time of their life!</p>
-  <p>Passengers:</p>
-  <ul>
-    <li>Agnes</li>
-    <li>Muriel</li>
-  </ul>
-  </div>
+      <p>Passengers:</p>
+      <ul>
+      <li>Agnes</li>
+      <li>Muriel</li>
+      </ul>
+      </div>
     )
   }
 }
@@ -35,7 +35,7 @@ export class ButcherShop extends React.Component {
 
 ReactDOM.render(
   <div>
-    render your components here! Refer back to the previous README if you are lost
+  render your components here! Refer back to the previous README if you are lost
   </div>,
   document.getElementById('root')
 )
